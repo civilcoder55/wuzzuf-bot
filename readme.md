@@ -1,5 +1,8 @@
 <h1 align="center">WuzzufBot cli tool</h1>
 
+## About
+wuzzufbot is cli tool to parse https://wuzzuf.net/ job page, listen on interval time for new jobs, print them to console add push notifications using https://pushover.net/. 
+
 ## Screenshots
 
 <p align="center"><img src="screenshots/1.png"></p>
