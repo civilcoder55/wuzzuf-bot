@@ -24,13 +24,13 @@ def _get_user_config_directory():
 def _get_app_config_path():
     """Returns exists app config settings directory."""
     user_config_directory = _get_user_config_directory()
-    app_config_directory = os.path.join(user_config_directory, '.wuzzufparser')
+    app_config_directory = os.path.join(user_config_directory, '.wuzzufbot')
     is_exist = os.path.exists(app_config_directory)
 
     if not is_exist:
         os.makedirs(app_config_directory)
 
-    return os.path.join(user_config_directory, '.wuzzufparser', '.db')
+    return os.path.join(user_config_directory, '.wuzzufbot', '.db')
 
 
 def get_app_config_data():
