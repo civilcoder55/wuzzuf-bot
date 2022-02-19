@@ -20,7 +20,7 @@ wuzzufbot is cli tool to parse https://wuzzuf.net/ job page, listen on interval 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/wuzzuf-bot.git
+   git clone https://github.com/civilcoder55/wuzzuf-bot.git
    ```
 2. update pip
    ```sh
